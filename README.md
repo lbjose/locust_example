@@ -1,4 +1,4 @@
-# locust_example
+# **locust_example**<br>
 Locust is an easy to use, scriptable and scalable performance testing tool.<br>
 
 To check more about the:<br>
