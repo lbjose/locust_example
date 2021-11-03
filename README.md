@@ -13,17 +13,29 @@ To start with,
 - Python >= 3.6
 
 For the example to work,<br> 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 
 To run the script<br> 
-`locust`
+```
+locust
+```
 
 To run locust with another file<br>
-`locust -f file_name`
+```
+locust -f file_name
+# Example
+locust -f locustfile.py
+```
 
 To run locust with another file specifying a particular tag<br>
-`locust -f file_name --tags tag_name`
+```
+locust -f file_name --tags tag_name
+# Example
+locust -f locustfile.py --tags sbert
+```
 
 
 Open http://localhost:8089/, to see the load stats in the browser. To have the results saved as csv you can checkout [here](http://docs.locust.io/en/stable/retrieving-stats.html)
