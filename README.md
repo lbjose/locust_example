@@ -16,3 +16,20 @@ For the example to work,
 ~~~bash 
 pip install -r requirements.txt
 ~~~
+
+To run the script 
+~~~ 
+locust
+~~~
+
+To run locust with another file
+~~~ 
+locust -f file_name
+~~~
+
+To run locust with another file specifying a particular tag
+~~~ 
+locust -f file_name --tags tag_name
+~~~
+
+Open http://localhost:8089/, to see the load stats in the browser. To have the results saved as csv you can checkout [here](http://docs.locust.io/en/stable/retrieving-stats.html)
